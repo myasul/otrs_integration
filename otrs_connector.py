@@ -15,14 +15,14 @@ from SiemplifyConnectorDataModel import CaseInfo
 # ============================== CONSTS ===================================== #
 PRODUCT = VENDOR = 'OTRS'
 OTRS_SCRIPT_NAME = 'OTRS Connector'
-OTRS_DEVICE_URL = 'device_url'
-USERNAME = 'username'
+OTRS_DEVICE_URL = 'Device URL'
+USERNAME = 'Username'
 PASSWORD = 'Password'
 OTRS_SERVICE = 'Service Name'
 OTRS_ROUTE_MAPPING_SEARCH_TICKET = 'mapping_search_ticket'
 OTRS_MAX_TICKET = 'Max Tickets Per Cycle'
 TIMEZONE = 'Server Timezone'
-
+OTRS_REST_ENDPOINT = "otrs/nph-genericinterface.pl/Webservice"
 # ============================= CLASSES ===================================== #
 
 
